@@ -1,15 +1,16 @@
-﻿@page "/"
+﻿@page "/second"
 
-<PageTitle>First Test</PageTitle>
-<h1>First Test</h1>
+<PageTitle>Second Test</PageTitle>
+<h1>Second Test</h1>
 
+<FluentDesignTheme Mode="DesignThemeModes.Dark" OfficeColor="OfficeColor.Office" />
 <!-- Here, the 'View Permission', 'Edit' and 'Delete' buttons doing nothing when clicked -->
 <FluentMessageBar
     Title="Warning" Intent="@MessageIntent.Warning" AllowDismiss="false">
     Don't forget to <strong>save</strong> your changes!
 </FluentMessageBar>
 
-This is an example alert (right above this text) that will not be dismissed.
+When adding the theme block on this specific page, it works fine.
 
 @code {
     
