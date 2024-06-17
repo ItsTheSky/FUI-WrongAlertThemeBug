@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<!-- Here, the 'View Permission', 'Edit' and 'Delete' buttons doing nothing when clicked -->
+<FluentMessageBar
+    Title="Warning" Intent="@MessageIntent.Warning" AllowDismiss="false">
+    Don't forget to <strong>save</strong> your changes!
+</FluentMessageBar>
+
+This is an example alert (right above this text) that will not be dismissed.
+
+@code {
+    
+}
